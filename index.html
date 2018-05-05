@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+<link href="img/icon.ico" rel="shortcut icon"/>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<link rel="stylesheet" href="css/contact.css"/>
+<link rel="stylesheet" href="css/swiper.min.css"/>
+</head>
+<title>contact</title>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script>
+
+$(function(){ 
+
+		var mySwiper=new Swiper ('#news .swiper-container', {
+   
+			loop: true,
+			slidesPerView:"auto",
+			spaceBetween:20,
+			autoplay:2000,
+			autoplayDisableOnInteration:false,
+			// 如果需要分页器
+			pagination: '#news .swiper-pagination',
+			paginationClickable:true,
+			
+	     });     
+		 
+		  /*导航插件*/
+		  $('nav').singlePageNav({
+				  offset:50,
+		  });
+		  /*点击小屏幕导航按钮时，自动折叠*/
+		  $('.list a').click(function(){
+			  $('.navbar-collapse').collapse('hide');	
+		  });
+		  /*初始化wow*/
+		  new WOW().init();
+
+		  /*bbs区域图片提示信息淡入淡出效果
+		  var aInfo=$('.image_info').find('.info');
+	
+		  $('.image_info').each(function(index) {
+			  
+			  $(this).mouseenter(function(){
+		  
+				  aInfo.eq(index).fadeIn();
+				  
+			  });
+			  
+			  $(this).mouseleave(function(){
+		  
+				  aInfo.eq(index).fadeOut();
+				  
+			  });
+		  });	*/
+	
+			
+});
+
+</script>
+<body>
+<!--nav-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand logo">Contact</a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right list">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#friend">好友美文</a></li>
+                <li><a href="#news">新鲜事</a></li>
+                <li><a href="#bbs">论坛</a></li>
+                <li><a href="#writer">发布文章</a></li>
+                <li><a href="#login">登录</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!--导航-->
+<!--home-->
+<section id="home">
+    <div class="filter">
+        <div class="container">
+            <div class="row wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>Contact， 让你我更近一步！</h1>
+                    <p>
+                        在这里，你可以随时分享自己的所见，所闻，所想！
+                    </p>
+                    <p>
+                    	在这里，你可以找寻自我的一番新风采，发表自己独到的见解！！！
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--首页-->
+<!--friend-->
+<section id="friend">
+    <div class="container">
+    	<div class="row">
+            
+            <div class="col-md-12">
+            	<h2>Hello,friend!Hello,article!!!</h2>
+            </div>
+         
+         	<div class="col-md-3">
+                <div class="share">
+                    <h3>书写人生<span class="title_border"></span></h3>   
+                    <p>执笔，轻轻地写下对远方亲友的思念，在花开月圆之日，景年安好！！！</p>
+                </div>
+         	</div>
+            <div class="col-md-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                <a href="#"><img src="img/2.jpg" class="img-responsive"/></a>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="share">
+                    <h3>记录<span class="title_border"></span></h3>
+                    <p>趁着年轻，拍下生活的每一瞬，时光不饶人。</p>
+                </div>
+            </div>
+            <div class="col-md-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                <a href="#"><img src="img/3.jpg" class="img-responsive"/></a>
+            </div>
+
+    	</div>
+	</div>   
+    
+    <div class="container">
+    	<div class="row">
+        	
+            <div class="col-md-3">
+              <div class="share">
+                  <h3>拿起背包看世界<span class="title_border"></span></h3>
+                  <p>世界那么大，我想去看看。不负华年！！！</p>
+              </div>
+          </div>
+          <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <a href="#"><img src="img/1.jpg" class="img-responsive"/></a>
+          </div>
+           
+           <div class="col-md-3">
+              <div class="share">
+                  <h3>陪伴<span class="title_border"></span></h3>
+                  <p>到老了的那一刻才知道：陪伴是世界上最长情的告白！！！</p>
+              </div>
+          </div>
+           <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <a href="#"><img src="img/4.jpg" class="img-responsive"/></a>
+          </div>
+            
+          <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <a href="index.heml" class="btn btn-default" role="button">查看更多</a>
+          </div>
+            
+        </div>
+    </div>  
+</section>
+<!--朋友圈-->
+<!--news-->
+<section id="news">
+	
+	<div class="container text-center title">
+    	<h3 class="home-h3">随地分享</h3>
+        <h2 class="home-h2">知晓新动态&nbsp;&nbsp; <a href="news.html">>>更多</a></h2>
+        <hr/>
+        <p>说不定，有你所关注的那个他/她哦！！！</p>
+    </div>
+    
+	<div class="container-fluid">
+    	<div class="swiper-container">
+        
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                	<a href="#">
+                    	<img src="img/silde1.jpg" alt=""/>
+                        <div class="text">
+                        	<h3 class="home-h3">冰淇淋月饼的做法</h3>
+                            <p>writer:&nbsp;小名</p>
+                        </div>                    
+                    </a>                
+                </div>  
+                
+                <div class="swiper-slide">
+                	<a href="#">
+                    	<img src="img/slide2.jpg" alt=""/>
+                        <div class="text">
+                        	<h3 class="home-h3">祖国万岁</h3>
+                            <p>writer:&nbsp;小华</p>
+                        </div>                    
+                    </a>                
+                </div>          
+                
+                <div class="swiper-slide">
+                	<a href="#">
+                    	<img src="img/slide3.jpg" alt=""/>
+                        <div class="text">
+                        	<h3 class="home-h3">一起去看电影吧</h3>
+                            <p>writer:&nbsp;小英</p>
+                        </div>                    
+                    </a>                
+                </div>
+                
+                <div class="swiper-slide">
+                	<a href="#">
+                    	<img src="img/slide4.jpg" alt=""/>
+                        <div class="text">
+                        	<h3 class="home-h3">老铁寄来的月饼</h3>
+                            <p>writer:&nbsp;小勺</p>
+                        </div>                    
+                    </a>                
+                </div>  
+                
+                <div class="swiper-slide">
+                	<a href="#">
+                    	<img src="img/slide5.jpg" alt=""/>
+                        <div class="text">
+                        	<h3 class="home-h3">一起去看萌萌的小可爱吧</h3>
+                            <p>writer:&nbsp;小雅</p>
+                        </div>                    
+                    </a>                
+                </div>   
+                
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+		</div>
+        
+    </div>
+    
+</section>
+<!--新鲜事-->
+<!--bbs-->
+<section id="bbs">
+	<div class="container">
+    	<div class="row">
+        	
+            <div class="col-md-12">
+            	<h2 class="text-center wow fadeInDown" data-wow-delay="1s">论天下</h2>
+            </div>
+            
+        	<div class="col-md-4 wow fadeInUp" data-wow-delay="1s">
+                <a href="#" target="_blank">   
+                    <div class="image_info">
+                        <img src="img/bbs1.jpg" class="img-responsive" alt=""/>
+                        <div class="info">
+                            <p>最近李晨求婚成功啦！！！</p>
+                        </div>
+                    </div>
+                    <h3>明星娱乐</h3>
+                </a>
+            </div>
+            
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="1s">
+                <a href="#" target="_blank">
+                	<div class="image_info">
+                        <img src="img/bbs2.jpg" class="img-responsive" alt=""/>
+                        <div class="info">
+                            <p>苹果又开发布会啦！！！</p>
+                        </div>
+                    </div>
+                    <h3>谈国外事</h3>
+                </a>
+            </div>
+    
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="1s">
+                <a href="#" target="_blank">
+                	<div class="image_info">
+                        <img src="img/bbs3.jpg" class="img-responsive" alt=""/>
+                        <div class="info">
+                            <p>损友一大堆！！！回家啦！！！</p>
+                        </div>
+                	</div>
+                	<h3>朋友圈</h3>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--论坛-->
+<!--writer-->
+<section id="writer">
+    <div class="container-fluid">
+    
+    	<div class="text-center col-md-12">
+        	<h2>show出我的故事</h2>
+        </div>
+       
+       	<div class="col-md-6 image wow fadeInLeft" data-wow-delay="1s">
+            <img src="img/2.jpg" class="img-responsive image" alt=""/>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="1s">
+            <div class="show_text">
+            	<h2>发表说说<span class="border"></span></h2>
+                <p>编辑你独一无二的故事！！！</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa doloribus molestias, explicabo itaque, quos consequatur quam, tempore enim voluptatum nulla quas iusto voluptate quae modi commodi maiores voluptatibus perspiciatis aut.</p>
+                <a href="#" class="btn btn-default" role="btn">发表说说</a>&nbsp;&nbsp;&nbsp;&nbsp;<span>or</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" >learn more>></a>
+            </div>
+        </div>
+ 
+    </div>
+</section>
+<!--发布文章-->
+<!--login-->
+<section id="login">
+    <div class="filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeInLeft" data-wow-delay="1s">
+                    <h2>
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        关于Contact
+                    </h2>
+                    <p>
+                        Contact 是一个社交平台，你可以在这里和你的亲人一起分享，交流你的故事！！！
+                    </p>
+                    <address>
+                        <p>
+                            <span class="glyphicon glyphicon-home"></span>
+                            &nbsp;
+                            地址:广州市海珠区纺织路东沙街仲恺农业工程学院
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                            &nbsp;
+                            反馈电话:666888
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            &nbsp;
+                            邮箱:hr@contact.com
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-6 wow fadeInRight" data-wow-delay="1s">
+                    <form action="#" method="post" class="form">
+                            <input type="text" class="form-control" placeholder="您的姓名"/>    	
+                            <input type="password" class="form-control" placeholder="您的密码"/>                   
+                            <input type="email" class="form-control" placeholder="您的邮箱"/>         
+                            <input type="submit" class="form-control" value="登录"/>
+                    </form>
+                    <a href="register.html" class="register" target="_self"> <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;没有账号，点击注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--登录-->
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright&nbsp;©&nbsp;Contact,&nbsp;&nbsp;让你我更亲近！！！
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+</body>
+</html>

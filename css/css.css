@@ -1,0 +1,15 @@
+/*public*/
+body { font-family:'微软雅黑'; color:#e9929a; font-size:16px;  }
+
+/*login*/
+.login input, .login input:focus, .login .btn-default, .login .btn-default:hover { border:1px solid #e9929a; }
+.login { margin:50px 0; }
+.login .btn-default { width:70%;  color:#FFF; background:#e9929a; transition:all 0.3s; }
+.login .btn-default:hover { background:#FFF; color:#e9929a; }
+.login #gendar span { position:relative; top:2px; font-weight:bold; }
+.login .return_index { color:#e9929a; position:relative; left:50px; top:2px; }
+
+@media (max-width:768px) {
+	.login .btn-default { width:100%; }
+	.login .return_index { left:0; top:12px; }
+}
